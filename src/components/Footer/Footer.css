@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  gap: 7vw;
+  justify-content: center;
+  align-items: center;
+  height: 20vw;
+  background-color: #100f0f;
+  margin-top: 8vw;
+  font-size: 1vw;
+}
+.footer a {
+  color: #ffde76;
+  width: 10vw;
+}
+.logo2 {
+  width: 20vw;
+}
+.logo2 img {
+  width: 18vw;
+  transition: ease-in-out 0.5s;
+}
+.logo2 img:hover {
+  width: 19vw;
+  cursor: pointer;
+}

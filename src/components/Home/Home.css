@@ -1,0 +1,81 @@
+.home2 {
+  margin-top: 100vw;
+  display: flex;
+  width: 70%;
+  margin-inline: 15%;
+  gap: 5vw;
+}
+.home2-img img {
+  width: 35vw;
+}
+.home2-texto {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  margin-top: 10vw;
+}
+.home2-texto h2 {
+  font-size: 1.8vw;
+}
+.home2-texto p {
+  font-size: 1.3vw;
+  opacity: 0.8;
+}
+.home2-texto a {
+  width: 21%;
+  color: white;
+  font-size: 1.5vw;
+  border-bottom: 1px solid white;
+  padding-bottom: 3px;
+  margin-left: 25vw;
+}
+
+.home3 {
+  margin-top: 15vw;
+}
+.home3 h3 {
+  font-size: 3vw;
+  color: white;
+  margin-bottom: 8vw;
+  margin-left: 5vw;
+}
+.home3 h2 , .home3 h1 {
+  color: white;
+  font-size: 4vw;
+  position: absolute;
+  z-index: 2;
+  top: 255vw;
+  background: none;
+  left: 12vw;
+}
+.home3 h1 {
+  top: 260vw;
+  left: 20vw;
+}
+
+.imgHome {
+  width: 30vw;
+  position: relative;
+  left: 2vw;
+}
+.imgHome2 {
+  width: 40vw;
+  position: relative;
+  left: 27vw;
+  top: -25vw;
+
+}
+.imgHome3 {
+  width: 30vw;
+  position: relative;
+  left: 65%;
+  top: -20vw;
+}
+.imgHome4 {
+  width: 35vw;
+  position: relative;
+  left: -25vw;
+  z-index: 1;
+
+}

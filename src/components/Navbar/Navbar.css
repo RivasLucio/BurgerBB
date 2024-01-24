@@ -1,0 +1,39 @@
+.navbar-container {
+    width: 70%;
+    height: 6.5vw;
+    padding: .35vw;
+    position: fixed;
+    border: solid .3vw #FFDE76;
+    border-radius: 1.4vw;
+    z-index: 999;
+    margin-inline: 15%;
+    top: 3vw;
+    display: flex;
+    gap: 10vw;
+    align-items: center;
+}
+.logo {
+    width: 5.5vw;
+}
+.logo img {
+    width: 5vw;
+    transition: ease-in-out 0.5s;
+}
+.logo img:hover {
+    width: 5.5vw;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    gap: 6vw;
+    font-size: 1.3vw;
+}
+
+.menu a {
+    color: #FFDE76;
+}
+
+.menu a.active {
+    color: #EC5D4C;
+}

@@ -1,0 +1,83 @@
+.burger {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  margin-top: 15vw;
+}
+.burger img {
+  width: 50%;
+}
+
+.pan-top,
+.content-in-middle,
+.pan-bottom {
+  margin: auto;
+}
+
+.pan-bottom {
+  position: relative;
+}
+
+.pan-top {
+  z-index: 1;
+}
+
+.content-in-middle {
+  position: absolute;
+  bottom: 9vw;
+}
+
+.hideBurger {
+  display: none;
+}
+
+.arrow {
+  position: relative;
+  top: 0vw;
+  left: 83%;
+  width: 12vw;
+  animation: bounce 4s infinite;
+}
+@keyframes bounce {
+  0%,
+  100% {
+    top: -10vw; /* Posición inicial y final */
+  }
+  50% {
+    top: 0vw; /* Posición elevada en la mitad de la animación */
+  }
+}
+
+.espatula,
+.patty,
+.camion,
+.coca,
+.papas {
+  width: 15vw;
+  position: relative;
+}
+
+.espatula {
+  top: 20vw;
+  left: -12vw;
+}
+
+.camion {
+    left: 40%;
+    top: 35vw;
+}
+.patty {
+    left: -25vw;
+    top: 45vw;
+}
+.coca{
+    width: 10vw;
+    left: 30%;
+    top: 80vw;
+}
+.papas {
+    left:  -65vw;
+    top: 100vw;
+}

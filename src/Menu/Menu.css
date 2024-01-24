@@ -1,0 +1,10 @@
+.menuImg {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vw;
+    justify-content: center;
+    margin-top: 15vw;
+}
+.menuImg img {
+    width: 30vw;
+}
